@@ -40,6 +40,9 @@ public class Bubble_sort {
     }
 }
 
+//Output : 
+//[-67, -1, 0, 2, 3, 11, 78, 90, 100]
+
 //space complexity is O(1) as no extra space is needed like copying the array, etc. : these type of algorithms are also
 //called as "In-place sorting algorithms"
 
