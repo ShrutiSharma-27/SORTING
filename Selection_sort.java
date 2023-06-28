@@ -39,6 +39,9 @@ public class Selection_sort {
     }
 }
 
+//Output : 
+//[-67, -1, 0, 2, 3, 11, 78, 90, 100]
+
 //time complexity is O(n^2) : for both worst and best case
 //step 1 : n-1 comparisons (finding max element)
 //step 2 : n-2 comparisons (length of unsorted array = n-1 so comparisons needed to find max are n-2)
