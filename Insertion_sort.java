@@ -35,6 +35,9 @@ public class Insertion_sort {
     }
 }
 
+//Output :
+//[-67, -1, 0, 2, 3, 11, 78, 90, 100]
+
 //time complexity :
 //worst case : O(n^2) : 1+2+3+...+(n-1) comparisons to sort an array of reverse order.
 //best case : O(n) : linear : as total comparisons made are n-1 when array is already sorted : this is special about this algorithm
