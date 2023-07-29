@@ -47,4 +47,4 @@ public class Bubble_sort {
 //called as "In-place sorting algorithms"
 
 //time complexity : best case : O(n) : when array is sorted
-//                : worst case : O(n^2) : when array is sorted in reverse order
+//                : worst case : O(n^2) : when array is sorted in reverse order : same for average case
