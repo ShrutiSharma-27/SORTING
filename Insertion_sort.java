@@ -42,7 +42,7 @@ public class Insertion_sort {
 //worst case : O(n^2) : 1+2+3+...+(n-1) comparisons to sort an array of reverse order.
 //best case : O(n) : linear : as total comparisons made are n-1 when array is already sorted : this is special about this algorithm
 
-//space complexity : O(1)
+//space complexity : O(1), as it has sorting in place.
 
 //why to use insertion sort ?
 //* ADAPTIVE : steps are reduced if array is sorted (if j is not smaller then j-1 then break the loop)
