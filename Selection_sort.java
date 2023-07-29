@@ -42,7 +42,7 @@ public class Selection_sort {
 //Output : 
 //[-67, -1, 0, 2, 3, 11, 78, 90, 100]
 
-//time complexity is O(n^2) : for both worst and best case
+//time complexity is O(n^2) : for worst, average and best case as well
 //step 1 : n-1 comparisons (finding max element)
 //step 2 : n-2 comparisons (length of unsorted array = n-1 so comparisons needed to find max are n-2)
 //           .
@@ -50,3 +50,5 @@ public class Selection_sort {
 //           1 comparison
 //           0 comparison
 // total comparisons = sum of above and hence give us O(n^2) time complexity
+
+// space complexity : O(1)
