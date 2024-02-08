@@ -47,3 +47,10 @@ public class Merge_sort {
         return combined;
     }
 }
+
+// Time complexity = nlogn
+
+// Recurrennce Relation :
+
+// T(n) = 2T(n/2) + (n-1)
+// where (n-1) are the number of comparisons
