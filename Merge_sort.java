@@ -1,5 +1,6 @@
 //Merge sort uses recursion.
 //Steps : 1.Divide array into 2 parts ; 2.Get both parts sorted by recursion ; 3.Merge 2 sorted parts
+//Drawback : if the passed array is already sorted then also the program will go till very end/base condition. In this way quick sort is better. 
 
 import java.util.Arrays;
 
