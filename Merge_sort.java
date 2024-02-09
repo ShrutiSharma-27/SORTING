@@ -1,3 +1,5 @@
+//
+
 import java.util.Arrays;
 
 public class Merge_sort {
@@ -48,9 +50,11 @@ public class Merge_sort {
     }
 }
 
-// Time complexity = nlogn
+//Output : 
+//[0, 1, 2, 5, 8, 8, 25, 34]
+
+//time complexity = O(nlogn)
 
 // Recurrennce Relation :
-
 // T(n) = 2T(n/2) + (n-1)
 // where (n-1) are the number of comparisons
