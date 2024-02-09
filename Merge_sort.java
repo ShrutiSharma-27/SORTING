@@ -1,4 +1,5 @@
-//
+//Merge sort uses recursion.
+//Steps : 1.Divide array into 2 parts ; 2.Get both parts sorted by recursion ; 3.Merge 2 sorted parts
 
 import java.util.Arrays;
 
@@ -58,3 +59,4 @@ public class Merge_sort {
 // Recurrennce Relation :
 // T(n) = 2T(n/2) + (n-1)
 // where (n-1) are the number of comparisons
+// Simplified : T(n) = 2T(n/2) + O(n) 
